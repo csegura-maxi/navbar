@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
-import { IconsPlugin, CollapsePlugin, LayoutPlugin, ButtonPlugin, NavPlugin, LinkPlugin } from 'bootstrap-vue'
+import { IconsPlugin, CollapsePlugin, LayoutPlugin, ButtonPlugin, NavPlugin, SidebarPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/main.css'
@@ -12,7 +12,7 @@ Vue.use(LayoutPlugin);
 Vue.use(ButtonPlugin);
 Vue.use(CollapsePlugin);
 Vue.use(NavPlugin);
-Vue.use(LinkPlugin);
+Vue.use(SidebarPlugin);
 
 
 Vue.config.productionTip = false;
